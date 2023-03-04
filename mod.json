@@ -1,47 +1,28 @@
 {
-  "displayName": "Java Mod Template",
-  "name": "example-java-mod",
-  "author": "You",
-  "main": "example.ExampleJavaMod",
-  "description": "A Mindustry Java mod template.",
+  "displayName": "UXThemePatcher",
+  "name": "uxtp",
+  "author": "TheEE145",
+  "main": "uxtp.UXTP",
+  "description": "mindustry java mod that make customisation for your menu",
+  "hidden": true,
   "version": 1.0,
   "minGameVersion": 140,
   "java": true,
   "contributors": {
     "append": true,
-    "list": [
-      {
-        "name": "Some contributor",
-        "freesound": false
-      },
-      {
-        "name": "ScreamStudio",
-        "freesound": "true"
-      }
-    ]
+    "list": []
   },
   "repository": {
-    "name": "repo-name",
-    "user": "yourGithubName"
+    "name": "TheEE145",
+    "user": " MindustryUXThemePatcher"
   },
   "bundleCreation": {
-    "enabled": true,
-    "scanType": {
-      "mods": false,
-      "local": true,
-      "named": false
-    },
-    "postTime": 5,
-    "ignoredToScan": [
-      "example-java-mod-example-block2",
-      "betamindy-chest-large"
-    ]
+    "enabled": false
   },
   "coreSettings": {
     "throwExceptionIntoDialog": true,
     "fixOtherModsRepository": false,
-    "customLoggerPrefix": "example",
-    "useCustomLoggerPrefix": true,
+    "useCustomLoggerPrefix": false,
     "hasErrorRegion": false
   }
 }

@@ -1,6 +1,6 @@
-# Mindustry Java Mod Template
-A Java Mindustry mod template that works on Android and PC. The Kotlin version of this mod can be seen [here](https://github.com/Anuken/MindustryKotlinModTemplate).
-
+# MindustryUXThemePatcher
+A Java Mindustry mod that works on Android and PC.
+this make customisation for your menu and this mod named in honor of UltraUXThemePatcher, Windows app that allows change themes
 ## Building for Desktop Testing
 
 1. Install JDK **17**.
