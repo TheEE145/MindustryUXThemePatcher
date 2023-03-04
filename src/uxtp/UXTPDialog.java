@@ -53,6 +53,7 @@ public class UXTPDialog extends BaseDialog {
             MenuBackgroundRenderers.setRenderer(UXTPThemes.previous);
             UXTPSettings.set(UXTPSettings.noThemeToken);
             UXTPThemes.currentTheme = null;
+            buildF();
         });
 
         this.cont.table(table -> {
